@@ -12,9 +12,10 @@ import {
 } from "react-icons/si";
 import { FaHtml5, FaCss3Alt, FaReact } from "react-icons/fa";
 import { FaNodeJs, FaBootstrap } from "react-icons/fa";
-import { GrMysql } from "react-icons/gr";
+import { GrMysql, GrGraphQl } from "react-icons/gr";
 import { DiJavascript1 } from "react-icons/di";
 import { FiGithub } from "react-icons/fi";
+
 
 const Experience = () => {
   return (
@@ -139,13 +140,13 @@ const Experience = () => {
                 <small className="text-light">Intermediate</small>
               </div>
             </article>
-            {/* <article className="experience__details">
-              <BsFillPatchCheckFill className="experience__details-icon" />
+            <article className="experience__details">
+              <GrGraphQl className="experience__details-icon" />
               <div>
-                <h4>C</h4>
+                <h4>GraphQL</h4>
                 <small className="text-light">Intermediate</small>
               </div>
-            </article> */}
+            </article>
           </div>
         </div>
       </div>
